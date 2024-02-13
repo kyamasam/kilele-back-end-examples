@@ -22,6 +22,7 @@ ask the user to play again
 import random
 # computer, user
 scores = [0,0]
+player_name = input(" what is your name ? \n")
 while True:
     choices = ["rock", "scissors", "paper"]
 
@@ -69,7 +70,7 @@ while True:
         print("Good Bye")
         print("Here are the scores")
         print("--------------------------------")
-        print("COMPUTER | YOU " )
+        print("COMPUTER |  "+player_name )
         print("--------------------------------")
         print(str(scores[0])+"      | "+ str(scores[1]))
         break
